@@ -1,0 +1,61 @@
+.user{
+    background-color: rgb(241, 241, 241);
+    padding: 2rem;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: 5px solid white;
+}
+
+.user img{
+    width: 160px;
+    height: 160px;
+    border:solid 3px white;
+}
+.user h2{
+    color: black;
+
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    
+}
+.location > svg{
+    fill: rgb(197, 10, 10);
+    font-size: 1.5rem;
+}
+.stats{
+    display: flex;
+
+}
+.location span{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.number{
+    color: rgb(17, 16, 16);
+    font-size: 18px;
+    font-weight: bold;
+}
+.stats div{
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+.stats div:first-child{
+    border-right: 2px solid rgb(252, 252, 252);
+}
+.stats .number {
+    
+    padding: .2rem .4rem;
+    border-radius: 3px;
+}
+.stats .letras{
+    color: black;
+}
